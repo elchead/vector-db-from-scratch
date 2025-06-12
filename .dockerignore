@@ -1,0 +1,19 @@
+# Ignore Python cache and venv
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+
+# Ignore test cache
+.pytest_cache/
+
+# Ignore git
+.git/
+
+# Ignore editor and OS files
+.vscode/
+.DS_Store
+
+# Ignore local env and lock files (except uv.lock)
+.env
+.env.*
